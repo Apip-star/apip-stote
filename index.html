@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Selamat Datang di Toko Online Kami!</h2>
+        <p>Temukan produk fashion terbaru dengan harga terbaik.</p>
+        <button>Belanja Sekarang</button>
+    </section>
+
+    <section id="products">
+        <h2>Produk Kami</h2>
+        <div class="product">
+            <h3>Kemeja Pria</h3>
+            <p>Harga: Rp150,000</p>
+            <p>Deskripsi: Kemeja pria berkualitas tinggi, nyaman dipakai untuk berbagai acara.</p>
+            <form class="order-form">
+                <label for="quantity-kemeja">Jumlah:</label>
+                <input type="number" id="quantity-kemeja" name="quantity" min="1" value="1" required>
+                <button type="submit">Beli Sekarang</button>
+            </form>
+        </div>
+        <div class="product">
+            <h3>Dress Wanita</h3>
+            <p>Harga: Rp200,000</p>
+            <p>Deskripsi: Dress wanita stylish yang cocok untuk pesta atau acara formal.</p>
+            <form class="order-form">
+                <label for="quantity-dress">Jumlah:</label>
+                <input type="number" id="quantity-dress" name="quantity" min="1" value="1" required>
+                <button type="submit">Beli Sekarang</button>
+            </form>
+        </div>
+        <div class="product">
+            <h3>Sepatu Sneakers</h3>
+            <p>Harga: Rp300,000</p>
+            <p>Deskripsi: Sepatu sneakers nyaman untuk aktivitas sehari-hari.</p>
+            <form class="order-form">
+                <label for="quantity-sneakers">Jumlah:</label>
+                <input type="number" id="quantity-sneakers" name="quantity" min="1" value="1" required>
+                <button type="submit">Beli Sekarang</button>
+            </form>
+        </div>
+        <div class="product">
+            <h3>Jaket Musim Dingin</h3>
+            <p>Harga: Rp450,000</p>
+            <p>Deskripsi: Jaket hangat untuk melindungi Anda dari cuaca dingin.</p>
+            <form class="order-form">
+                <label for="quantity-jaket">Jumlah:</label>
+                <input type="number" id="quantity-jaket" name="quantity" min="1" value="1" required>
+                <button type="submit">Beli Sekarang</button>
+            </form>
+        </div>
+        <div class="product">
+            <h3>Celana Jeans</h3>
+            <p>Harga: Rp250,000</p>
+            <p>Deskripsi: Celana jeans yang nyaman dan stylish untuk sehari-hari.</p>
+            <form class="order-form">
+                <label for="quantity-jeans">Jumlah:</label>
+                <input type="number" id="quantity-jeans" name="quantity" min="1" value="1" required>
+                <button type="submit">Beli Sekarang</button>
+            </form>
+        </div>
+        <div class="product">
+            <h3>Topi Baseball</h3>
+            <p>Harga: Rp75,000</p>
+            <p>Deskripsi: Topi baseball yang modis untuk melindungi dari sinar matahari.</p>
+            <form class="order-form">
+                <label for="quantity-topi">Jumlah:</label>
+                <input type="number" id="quantity-topi" name="quantity" min="1" value="1" required>
+                <button type="submit">Beli Sekarang</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Toko Online adalah tempat terbaik untuk menemukan produk fashion berkualitas dengan harga terjangkau. Kami berkomitmen untuk memberikan pengalaman belanja yang menyenangkan dan memuaskan bagi pelanggan kami.</p>
+        <p>Kami menawarkan berbagai pilihan produk, mulai dari pakaian, sepatu, hingga aksesori. Setiap produk kami pilih dengan cermat untuk memastikan kualitas terbaik.</p>
+        <p>Visi kami adalah menjadi toko online terkemuka di Indonesia, menyediakan produk yang sesuai dengan tren terbaru dan kebutuhan pelanggan.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@tokoonline.com</p>
+        <p>Telepon: 0812-3456-7890</p>
+        <p>Alamat: Jl. Contoh No. 123, Jakarta, Indonesia</p>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <section id="faq">
+        <h2>FAQ (Pertanyaan yang Sering Diajukan)</h2>
+        <div class="faq-item">
+            <h3>1. Bagaimana cara melakukan pemesanan?</h3>
+            <p>Anda dapat melakukan pemesanan dengan memilih produk yang Anda inginkan dan mengklik tombol "Beli Sekarang". Ikuti langkah-langkah yang ada di halaman checkout.</p>
+        </div>
+        <div class="faq-item">
+            <h3>2. Apakah ada biaya pengiriman?</h3>
+            <p>Biaya pengiriman tergantung pada lokasi Anda. Kami menawarkan pengiriman gratis untuk pembelian di atas Rp500,000.</p>
+        </div>
+        <div class="faq-item">
+            <h3>3. Bagaimana jika saya ingin mengembalikan produk?</h3>
+            <p>Kami menerima pengembalian produk dalam waktu 30 hari setelah penerimaan. Pastikan produk dalam kondisi baik dan belum digunakan.</p>
+        </div>
+        <div class="faq-item">
+            <h3>4. Apakah saya bisa melacak pesanan saya?</h3>
+            <p>Ya, setelah pesanan Anda dikirim, kami akan mengirimkan nomor pelacakan melalui email.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Hak Cipta &copy; 2024 Toko Online. Semua hak dilindungi.</p>
+        <p>Ikuti kami di:
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
